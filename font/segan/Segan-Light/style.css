@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "Segan-Light";
+  src: url("./fonts/Segan-Light.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Segan-Light.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/Segan-Light.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/Segan-Light.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/Segan-Light.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/Segan-Light.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Segan-Light.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
