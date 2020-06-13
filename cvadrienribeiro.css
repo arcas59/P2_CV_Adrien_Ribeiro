@@ -177,20 +177,27 @@ p
 
 .liserai3
 {
-	height: 344px;
+	height: 374px;
 	display: flex;
 	flex-direction: column;
 }
 
 .info
 {
+	display: flex;
+	flex-direction: column;
 	padding-top: 20px;
 	padding-left: 46px;
 	padding-right: 46px;
 	font-size: 17px;
 	opacity: 0.7;
-	height: 72px;
+	height: 350px;
 	font-family: 'SecondaSoft-Regular', Impact, 'Times New Roman'
+}
+
+.inf1, .inf2, .inf3, .inf4, .inf5
+{
+	margin-top: 20px; height: 40px;
 }
 
 .liserai4
@@ -216,7 +223,7 @@ p
 	padding-left: 46px;
 	padding-right: 46px;
 	text-align: justify;
-	opacity: 0.55;
+	opacity: 0.45;
 	font-size: 17px;
 	font-family: 'SecondaSoft-Regular', Impact, 'Times New Roman'
 }
@@ -250,6 +257,8 @@ p
 	justify-content: space-around;
 	align-items: center;
 	opacity: 0.6;
+	margin-left: 45px;
+	margin-right: 45px;
 }
 
 .foot, .camera, .music
@@ -272,6 +281,8 @@ p
 	margin-left: 62px;
 	margin-right: 42px;
 	margin-bottom: 59px;
+	display: flex;
+	flex-direction: column;
 }
 
 .entete
@@ -307,7 +318,7 @@ p
 {
 	border-bottom: solid 2px;
 	border-bottom-color: #feca07;
-	margin-bottom-bottom: 5px;
+	margin-bottom: 5px;
 }
 
 .formation
@@ -321,7 +332,7 @@ p
 {
 	height: 70px;
 	white-space: pre;
-	margin-bottom-bottom: 5px;
+	margin-bottom: 5px;
 	border-bottom: solid 2px;
 	border-bottom-color: #feca07;
 }
@@ -329,7 +340,7 @@ p
 .form11
 {
 	font-family: 'HelveticaNeue-Roman', Impact, 'Times New Roman';
-	font-size: 30px;
+	font-size: 26px;
 }
 
 #formbox
@@ -429,7 +440,7 @@ p
 {
 	height: 70px;
 	white-space: pre;
-	margin-bottom-bottom: 5px;
+	margin-bottom: 5px;
 	border-bottom: solid 2px;
 	border-bottom-color: #feca07;
 }
@@ -571,14 +582,14 @@ p
 
 .rec
 {
-	height: 230px;
+	height: 200px;
 }
 
 .re1
 {
 	height: 70px;
 	white-space: pre;
-	margin-bottom-bottom: 5px;
+	margin-bottom: 5px;
 	border-bottom: solid 2px;
 	border-bottom-color: #feca07;	
 }
@@ -963,7 +974,7 @@ p
 {
 	border-bottom: solid 2px;
 	border-bottom-color: #feca07;
-	margin-bottom-bottom: 5px;
+	margin-bottom: 5px;
 }
 
 .formation
@@ -977,7 +988,7 @@ p
 {
 	height: 70px;
 	white-space: pre;
-	margin-bottom-bottom: 5px;
+	margin-bottom: 5px;
 	border-bottom: solid 2px;
 	border-bottom-color: #feca07;
 }
@@ -985,7 +996,7 @@ p
 .form11
 {
 	font-family: 'HelveticaNeue-Roman', Impact, 'Times New Roman';
-	font-size: 30px;
+	font-size: 26px;
 }
 
 .form2
@@ -1072,7 +1083,7 @@ p
 {
 	height: 70px;
 	white-space: pre;
-	margin-bottom-bottom: 5px;
+	margin-bottom: 5px;
 	border-bottom: solid 2px;
 	border-bottom-color: #feca07;
 }
@@ -1209,7 +1220,7 @@ p
 {
 	height: 70px;
 	white-space: pre;
-	margin-bottom-bottom: 5px;
+	margin-bottom: 5px;
 	border-bottom: solid 2px;
 	border-bottom-color: #feca07;	
 }
@@ -1381,9 +1392,9 @@ p
 
 body
 {
+	width: auto;
 	display: flex;
 	justify-content: center;
-	background-color: white;
 }
 
 p
@@ -1393,11 +1404,11 @@ p
 
 #page
 {
-	height: 100%;
-	width: 1185px;
-	display: flex;	
-	flex-wrap: wrap;
+	height: auto;
+	display: flex;
+	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 }
 
 #liserai
@@ -1405,20 +1416,21 @@ p
 	display: flex;
 	flex-direction: column;
 	background-color: #feca07;
-	width: 70%;
 	height: 1235px;
 }
 
 #contenu
 {
-	width: 500px;
-	height: 1500px;
-	margin-top: 20px;
+	width: auto;
+	height: 2000px;	
 }
 
 .content
 {
-
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .liserai1
@@ -1550,14 +1562,6 @@ p
 	align-items: center;
 }
 
-#pagecontenu
-{
-	margin-top: 0px;
-	margin-left: 62px;
-	margin-right: 42px;
-	margin-bottom: 19px;
-}
-
 .entete
 {
 	height: 160px;
@@ -1573,13 +1577,13 @@ p
 {
 	font-family: 'HelveticaNeue-Roman', Impact, 'Times New Roman';
 	color: #feca07;
-	font-size: 60px;
+	font-size: 50px;
 }
 
 .ribeiro
 {
 	font-family: 'Adequate-ExtraLight', Impact, 'Times New Roman';
-	font-size: 54px;
+	font-size: 44px;
 }
 
 .dev
@@ -1592,7 +1596,7 @@ p
 {
 	border-bottom: solid 2px;
 	border-bottom-color: #feca07;
-	margin-bottom-bottom: 5px;
+	margin-bottom: 5px;
 }
 
 .formation
@@ -1606,7 +1610,7 @@ p
 {
 	height: 70px;
 	white-space: pre;
-	margin-bottom-bottom: 5px;
+	margin-bottom: 5px;
 	border-bottom: solid 2px;
 	border-bottom-color: #feca07;
 	text-align: center;
@@ -1615,7 +1619,7 @@ p
 .form11
 {
 	font-family: 'HelveticaNeue-Roman', Impact, 'Times New Roman';
-	font-size: 30px;
+	font-size: 26px;
 }
 
 #formbox
@@ -1716,7 +1720,7 @@ p
 {
 	height: 70px;
 	white-space: pre;
-	margin-bottom-bottom: 5px;
+	margin-bottom: 5px;
 	border-bottom: solid 2px;
 	border-bottom-color: #feca07;
 	text-align: center;
@@ -1869,7 +1873,7 @@ p
 {
 	height: 70px;
 	white-space: pre;
-	margin-bottom-bottom: 5px;
+	margin-bottom: 5px;
 	border-bottom: solid 2px;
 	border-bottom-color: #feca07;
 	text-align: center;	
