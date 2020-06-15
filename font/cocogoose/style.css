@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "Cocogoose";
+  src: url("./fonts/CocogoosePro-trial.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/CocogoosePro-trial.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/CocogoosePro-trial.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/CocogoosePro-trial.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/CocogoosePro-trial.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/CocogoosePro-trial.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/CocogoosePro-trial.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
