@@ -864,7 +864,7 @@ body
 	display: flex;
 	flex-direction: column;
 	background-color: #feca07;
-	height: 1100px;
+	height: 1200px;
 	width: auto;
 }
 
@@ -895,6 +895,11 @@ aside
 	color: #feca07;
 	font-size: 27px;
 	padding-top: 8px;
+}
+
+.liserai5
+{
+	height: 433px;
 }
 
 .txtpropos
@@ -1010,7 +1015,7 @@ aside
 .xp11
 {
 	font-family: 'KeepCalm-Medium', Impact, 'Times New Roman';
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .xp0
