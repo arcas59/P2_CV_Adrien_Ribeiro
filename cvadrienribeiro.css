@@ -753,20 +753,30 @@ p
 	flex-direction: column;
 	background-color: #feca07;
 	width: 70%;
-	height: 1435px;
+	height: 1135px;
 }
 
 .liserai1
 {
-	height: 600px;
+	height: 400px;
 }
 
 #contenu
 {
 	width: auto;
-	height: 1600px;
+	height: 1400px;
 	margin-top: 20px;
 }
+
+#pagecontenu
+{
+	height: 1400px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
 
 .liserai3
 {
@@ -788,7 +798,7 @@ p
 
 .liserai5
 {
-	min-height: 233px;
+	height: 233px;
 }
 
 .liserai6
@@ -869,13 +879,13 @@ body
 	display: flex;
 	flex-direction: column;
 	background-color: #feca07;
-	height: 1200px;
+	height: 1300px;
 	width: auto;
 }
 
 aside
 {
-	height: 1100px;
+	height: 1300px;
 }
 
 #contenu
@@ -921,12 +931,12 @@ aside
 
 .adrien
 {
-	font-size: 50px;
+	font-size: 40px;
 }
 
 .ribeiro
 {
-	font-size: 45px;
+	font-size: 38px;
 }
 
 .dev
